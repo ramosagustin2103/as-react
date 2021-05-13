@@ -70,7 +70,7 @@ const L = ({ clientes }) => {
 
         <CSVLink
           target="_blank"
-          filename="admincu-clientes.csv"
+          filename="adminsmart-clientes.csv"
           headers={tableHeaders}          
           data={dataForTable}>
           <Button outline>

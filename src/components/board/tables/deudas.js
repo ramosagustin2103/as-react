@@ -45,7 +45,7 @@ const TableDeudas = ({data, columns, addProps}) => {
             headers={tableHeaders}
             data={dataForTable}
             target="_blank"
-            filename="admincu-deudas.csv">
+            filename="adminsmart-deudas.csv">
             <Button className="btn-sm" outline>
               <FileText size={18} />
             </Button>

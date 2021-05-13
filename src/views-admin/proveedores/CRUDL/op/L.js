@@ -140,7 +140,7 @@ const RecibosXSteps = memo(({ facturas, clientes }) => {
           headers={headers}
           className="btn btn-primary"
           target="_blank"
-          filename="admincu.csv">
+          filename="adminsmart-ops.csv">
           Excel
         </CSVLink>
       </div>

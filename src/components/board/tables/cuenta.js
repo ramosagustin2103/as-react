@@ -43,7 +43,7 @@ const TableCuenta = ({data, columns, addProps}) => {
           headers={tableHeaders}
           data={dataForTable}
           target="_blank"
-          filename="admincu-cuenta.csv">
+          filename="adminsmart-cuenta.csv">
           <Button className="btn-sm" outline>
             <FileText size={18} />
           </Button>

@@ -34,7 +34,7 @@ const CajaStep = ({ cajas }) => {
 
         <CSVLink
           target="_blank"
-          filename="admincu-cajas.csv"
+          filename="adminsmart-cajas.csv"
           data={dataForCSV}>
           <Button outline>
             CSV

@@ -144,7 +144,7 @@ const ComprobantesStep = React.memo(({ facturas, clientes }) => {
           headers={headers}
           className="btn btn-primary"
           target="_blank"
-          filename="admincu-facturas.csv">
+          filename="adminsmart-facturas.csv">
           CSV
         </CSVLink>
       </div>

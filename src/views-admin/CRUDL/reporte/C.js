@@ -193,7 +193,7 @@ const CStep = ({ causante, documentosTypes }) => {
           headers={headers}
           data={dataForTable}
           target="_blank"
-          filename="admincu-documentos.csv">
+          filename="adminsmart-informes.csv">
           <Button outline>
             CSV
           </Button>

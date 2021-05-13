@@ -39,7 +39,7 @@ const ProveedorStep = ({ clients }) => {
 
         <CSVLink
           target="_blank"
-          filename="admincu-clients.csv"
+          filename="adminsmart-proveedores.csv"
           data={dataForCSV}>
           <Button outline>
             CSV
