@@ -37,7 +37,7 @@ const Error = props => {
                               Crafted by <i className="ft-heart font-small-3" />
                               
                               <a
-                                 href="https://pixinvent.com/demo/apex-react-redux-bootstrap-admin-dashboard-template/landing-page/"
+                                 href="https://admin-smart.com/"
                                  rel="noopener noreferrer"
                                  target="_blank"
                               >
