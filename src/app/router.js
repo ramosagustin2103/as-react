@@ -39,7 +39,7 @@ class Router extends Component {
          <BrowserRouter basename="/">
             <Switch>
                {/* Rutas publicas */}
-               <LandingLayoutRoute
+               {/* <LandingLayoutRoute
                   exact
                   path="/"
                   render={matchprops => (
@@ -47,7 +47,16 @@ class Router extends Component {
                         <LazyLanding {...matchprops} />
                      </Suspense>
                   )}
-               />               
+               />                */}
+               <FullPageLayoutRoute
+                  exact
+                  path="/"
+                  render={matchprops => (
+                     <Suspense fallback={<Spinner />}>
+                        <LazyLogin {...matchprops} />
+                     </Suspense>
+                  )}
+               />
                <FullPageLayoutRoute
                   exact
                   path="/login"
@@ -56,7 +65,7 @@ class Router extends Component {
                         <LazyLogin {...matchprops} />
                      </Suspense>
                   )}
-               />
+               />               
 
                {/* Rutas privadas */}
 
