@@ -114,14 +114,14 @@ const OperacionNew = ({ documento, setDocumento, errors, update }) => {
             type: 'number',
             name: 'debe',
             placeholder: 'Debe',
-            min: 1,
+            min: 0.01,
             header: 'Debe',
             handleChange: handleOperacionesChange
           }, {
             type: 'number',
             name: 'haber',
             placeholder: 'Haber',
-            min: 1,
+            min: 0.01,
             header: 'Haber',
             handleChange: handleOperacionesChange
           }, {
