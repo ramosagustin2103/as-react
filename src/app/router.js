@@ -4,13 +4,11 @@ import { BrowserRouter, Switch } from "react-router-dom";
 import Spinner from "../components/spinner/spinner";
 
 // import internal(own) modules
-import LandingLayoutRoute from "../layouts/routes/landingRoutes";
 import MainLayoutRoute from "../layouts/routes/mainRoutes";
 import FullPageLayoutRoute from "../layouts/routes/fullpageRoutes";
 import ErrorLayoutRoute from "../layouts/routes/errorRoutes";
 
 // Rutas publicas (Tienen Layout completo)
-const LazyLanding = lazy(() => import("../views/landing"));
 const LazyLogin = lazy(() => import("../views/auth/login"));
 const LazyForgotPassword = lazy(() => import("../views/auth/forgotPassword"));
 const LazyRegister = lazy(() => import("../views/auth/register"));
