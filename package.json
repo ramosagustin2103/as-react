@@ -91,6 +91,6 @@
       "not op_mini all"
    ],
    "devDependencies": {
-      "node-sass": "^4.13.1"
+      "node-sass": "^6.0.1"
    }
 }
